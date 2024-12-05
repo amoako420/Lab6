@@ -5,7 +5,7 @@ Careers
 
 ## Created a column for the dropout individuals 
 _Use this dax code to create the dropout-status_: 
-```Dropout_Status = 
+`Dropout_Status = 
 IF(
     AND(
         PowerBI_status[Certification Status] = "Not Certified", 
@@ -13,9 +13,9 @@ IF(
     ), 
     "Dropout", 
     "Non Dropout"
-)``` for the PowerBi table
+)` for the PowerBi table
 
-```Dropout_Status = 
+`Dropout_Status = 
 IF(
     AND(
         AWS_status[Certification Status] = "Not Certified", 
@@ -23,7 +23,7 @@ IF(
     ), 
     "Dropout", 
     "Non Dropout"
-)``` for the Cloud training table
+)` for the Cloud training table
  
 
 This will create a new column that will the condition, if the person is not certified and is not a graduate.
