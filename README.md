@@ -1,3 +1,8 @@
+# Power Bi Report
+Power BI Dashboard for Tracking Student Progress and Performance: Global
+Careers
+
+
 ## Created a column for the dropout individuals 
 _Use this dax code to create the dropout-status_: 
 `Dropout_Status = 
