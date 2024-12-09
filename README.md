@@ -29,3 +29,8 @@ IF(
 This will create a new column that will the condition, if the person is not certified and is not a graduate.
 The person will be regarded as a dropout or the otherwise.
 
+## Created a column in the zoom attendance
+'Duration2 = 'zoom attendance'[Leave Time]-'zoom attendance'[Join Time]'
+
+## Created a column in the zoom attendance for the attendance
+'Attendance = if('zoom attendance'[Duration2]>=time(0,30,0),1,0)'
