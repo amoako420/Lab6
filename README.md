@@ -3,6 +3,12 @@ Power BI Dashboard for Tracking Student Progress and Performance: Global
 Careers
 
 
+## Combined folder
+_Combined the folders of the AWS and Power Bi_
+The folder contains the combined folders of the excel and csv files from both tracks(i.e PBI for Power Bi and AWS
+ for Cloud Training)
+
+
 ## Created a column for the dropout individuals 
 _Use this dax code to create the dropout-status_: 
 `Dropout_Status = 
